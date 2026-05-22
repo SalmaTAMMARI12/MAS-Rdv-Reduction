@@ -123,9 +123,6 @@ mas_rdv_crewai/
 └── requirements.txt
 ```
 
----
-## Démonstration du projet
-<video controls src="Demo/Video Project.mp4" title="Title"></video>
 
 
 ## Membres
