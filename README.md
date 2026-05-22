@@ -81,7 +81,6 @@ Attendre le message : `llama server listening at http://127.0.0.1:8080`
 **Terminal 2 — lancer la simulation (mode terminal) :**
 
 ```bash
-cd ~/OneDrive\ -\ um5.ac.ma/Bureau/projet-IA
 PYTHONIOENCODING=utf-8 python main.py
 ```
 
@@ -94,7 +93,6 @@ Pour une démonstration visuelle dans le navigateur, utiliser l'interface Flask 
 **Terminal 2 — lancer le serveur web :**
 
 ```bash
-cd ~/OneDrive\ -\ um5.ac.ma/Bureau/projet-IA
 PYTHONIOENCODING=utf-8 python app.py
 ```
 
@@ -110,7 +108,8 @@ Puis ouvrir **http://localhost:5000** dans le navigateur et cliquer sur **"Lance
 mas_rdv_crewai/
 ├── main.py                  # Point d'entrée principal
 ├── app.py                   # Serveur Flask (interface web)
-├── index.html               # Frontend de démo
+├── index.html
+├── Demo/             # Frontend de démo
 ├── data/
 │   └── KaggleV2-May-2016.csv
 ├── crew/
